@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>940863306486-8lhtpnf9rbhifl1e16grco882s1i0t48.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.940863306486-8lhtpnf9rbhifl1e16grco882s1i0t48</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgSm87-OhiQiFnKAQy3xvcEsyIIGuKrPM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>940863306486</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.skoinfo.dawgu9</string>
+	<key>PROJECT_ID</key>
+	<string>daeguschoolnabi</string>
+	<key>STORAGE_BUCKET</key>
+	<string>daeguschoolnabi.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:940863306486:ios:d46df5f3f894609b</string>
+	<key>DATABASE_URL</key>
+	<string>https://daeguschoolnabi.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,120 @@
+
+/* Class = "UILabel"; text = "이용안내"; ObjectID = "18H-1l-POW"; */
+"18H-1l-POW.text" = "이용안내";
+
+/* Class = "UILabel"; text = "기본학급을 등록해주시기 바랍니다."; ObjectID = "2SJ-Uo-f3q"; */
+"2SJ-Uo-f3q.text" = "기본학급을 등록해주시기 바랍니다.";
+
+/* Class = "UILabel"; text = "검색 목록이 없습니다."; ObjectID = "2z6-4M-b57"; */
+"2z6-4M-b57.text" = "검색 목록이 없습니다.";
+
+/* Class = "UILabel"; text = "등록된 학교가 없습니다."; ObjectID = "3kn-1R-DgJ"; */
+"3kn-1R-DgJ.text" = "등록된 학교가 없습니다.";
+
+/* Class = "UILabel"; text = "학교 설정"; ObjectID = "5Kf-Wn-uqj"; */
+"5Kf-Wn-uqj.text" = "학교 설정";
+
+/* Class = "UILabel"; text = "학교를 등록해주시기 바랍니다."; ObjectID = "5Of-ab-fha"; */
+"5Of-ab-fha.text" = "학교를 등록해주시기 바랍니다.";
+
+/* Class = "UIButton"; normalTitle = "내리기"; ObjectID = "6tU-xD-M21"; */
+"6tU-xD-M21.normalTitle" = "내리기";
+
+/* Class = "UILabel"; text = "학교폭력 신고하기"; ObjectID = "9W1-zS-ome"; */
+"9W1-zS-ome.text" = "학교폭력 신고하기";
+
+/* Class = "UILabel"; text = "학교명"; ObjectID = "AMb-VS-1nU"; */
+"AMb-VS-1nU.text" = "학교명";
+
+/* Class = "UILabel"; text = "아이디/비밀번호 기억하기"; ObjectID = "C2f-gp-pzl"; */
+"C2f-gp-pzl.text" = "아이디/비밀번호 기억하기";
+
+/* Class = "UILabel"; text = "기본"; ObjectID = "CtK-BK-eDt"; */
+"CtK-BK-eDt.text" = "기본";
+
+/* Class = "UILabel"; text = "    학교"; ObjectID = "DzB-bA-oEF"; */
+"DzB-bA-oEF.text" = "    학교";
+
+/* Class = "UILabel"; text = "알림"; ObjectID = "EKy-YT-x7v"; */
+"EKy-YT-x7v.text" = "알림";
+
+/* Class = "UIButton"; normalTitle = "추가"; ObjectID = "HTh-ZM-YKU"; */
+"HTh-ZM-YKU.normalTitle" = "추가";
+
+/* Class = "UILabel"; text = "학반"; ObjectID = "Hnq-py-QhF"; */
+"Hnq-py-QhF.text" = "학반";
+
+/* Class = "UILabel"; text = "학급게시판"; ObjectID = "I7g-nI-pAc"; */
+"I7g-nI-pAc.text" = "학급게시판";
+
+/* Class = "UILabel"; text = "대구원스톱학교"; ObjectID = "IWH-nl-xOK"; */
+"IWH-nl-xOK.text" = "대구원스톱학교";
+
+/* Class = "UIButton"; normalTitle = "추가"; ObjectID = "LaY-ch-B7s"; */
+"LaY-ch-B7s.normalTitle" = "추가";
+
+/* Class = "UILabel"; text = "로그인 정보를 입력해 주세요."; ObjectID = "New-kj-toJ"; */
+"New-kj-toJ.text" = "로그인 정보를 입력해 주세요.";
+
+/* Class = "UILabel"; text = "학급"; ObjectID = "UxR-Dv-LBB"; */
+"UxR-Dv-LBB.text" = "학급";
+
+/* Class = "UILabel"; text = "1학년 1반"; ObjectID = "Uzl-ty-QWE"; */
+"Uzl-ty-QWE.text" = "1학년 1반";
+
+/* Class = "UILabel"; text = "학반"; ObjectID = "ax5-r5-5pc"; */
+"ax5-r5-5pc.text" = "학반";
+
+/* Class = "UILabel"; text = "파일이름 출력되는 곳"; ObjectID = "b1r-p9-eOE"; */
+"b1r-p9-eOE.text" = "파일이름 출력되는 곳";
+
+/* Class = "UILabel"; text = "로그아웃"; ObjectID = "c3W-H9-EKQ"; */
+"c3W-H9-EKQ.text" = "로그아웃";
+
+/* Class = "UILabel"; text = "대구월배초등학교"; ObjectID = "cNt-st-tHw"; */
+"cNt-st-tHw.text" = "대구월배초등학교";
+
+/* Class = "UISearchBar"; placeholder = "학교명을 검색하세요."; ObjectID = "dkk-kX-Asb"; */
+"dkk-kX-Asb.placeholder" = "학교명을 검색하세요.";
+
+/* Class = "UILabel"; text = "임시테스트 신고내용을 입력해 주세요."; ObjectID = "gbY-hc-4Ol"; */
+"gbY-hc-4Ol.text" = "임시테스트 신고내용을 입력해 주세요.";
+
+/* Class = "UILabel"; text = "건너뛰기"; ObjectID = "he2-iN-qcW"; */
+"he2-iN-qcW.text" = "건너뛰기";
+
+/* Class = "UILabel"; text = "학교 추가"; ObjectID = "hfT-Sc-dMP"; */
+"hfT-Sc-dMP.text" = "학교 추가";
+
+/* Class = "UILabel"; text = "1학년 1반"; ObjectID = "i8l-H7-OWF"; */
+"i8l-H7-OWF.text" = "1학년 1반";
+
+/* Class = "UIButton"; normalTitle = "기본학급 등록하기"; ObjectID = "oxa-Cx-tg9"; */
+"oxa-Cx-tg9.normalTitle" = "기본학급 등록하기";
+
+/* Class = "UILabel"; text = "정상적으로 로그인 되었습니다."; ObjectID = "rgB-RG-cDP"; */
+"rgB-RG-cDP.text" = "정상적으로 로그인 되었습니다.";
+
+/* Class = "UILabel"; text = "(0)"; ObjectID = "s2E-vQ-FRy"; */
+"s2E-vQ-FRy.text" = "(0)";
+
+/* Class = "UILabel"; text = "학년/반 선택하기"; ObjectID = "uYA-xG-DUt"; */
+"uYA-xG-DUt.text" = "학년/반 선택하기";
+
+/* Class = "UILabel"; text = "학교홈페이지 앱서비스"; ObjectID = "uc6-XC-EzL"; */
+"uc6-XC-EzL.text" = "학교홈페이지 앱서비스";
+
+/* Class = "UILabel"; text = "공통게시판"; ObjectID = "vYv-pw-wGy"; */
+"vYv-pw-wGy.text" = "공통게시판";
+
+/* Class = "UILabel"; text = "알림"; ObjectID = "whL-9u-Ofu"; */
+"whL-9u-Ofu.text" = "알림";
+
+/* Class = "UILabel"; text = "제목"; ObjectID = "wxQ-1T-z1n"; */
+"wxQ-1T-z1n.text" = "제목";
+
+/* Class = "UILabel"; text = "로그인"; ObjectID = "x8M-Nk-tmq"; */
+"x8M-Nk-tmq.text" = "로그인";
+
+/* Class = "UILabel"; text = "기본학급이 등록되지 않았습니다."; ObjectID = "yp6-nO-kQI"; */
+"yp6-nO-kQI.text" = "기본학급이 등록되지 않았습니다.";
