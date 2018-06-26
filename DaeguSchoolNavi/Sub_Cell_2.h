@@ -21,6 +21,10 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *cell2_BGImgView;
 
+
+
 @property (weak, nonatomic) IBOutlet UILabel *cell2_label;
+@property (weak, nonatomic) IBOutlet UIButton *cell2_btnOutlet;
+@property (weak, nonatomic) IBOutlet UIImageView *cell2_btnImageView;
 
 @end

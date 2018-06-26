@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UITableViewDataSource, UITableViewDelegate, UIActionSheetDelegate, UIAlertViewDelegate, NSXMLParserDelegate,UIWebViewDelegate>
 
+// 한컴뷰어 열결을 위해 document창
+@property (nonatomic, strong) UIDocumentInteractionController *documentInteractionController;
+
+- (void)pushAlarmGet_ing:(NSArray*)objectArray;
+- (void)pushAlarmProgress:(NSArray*)objectArray;
 
 @end
 

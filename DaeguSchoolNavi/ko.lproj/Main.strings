@@ -27,7 +27,7 @@
 "AMb-VS-1nU.text" = "학교명";
 
 /* Class = "UILabel"; text = "아이디/비밀번호 기억하기"; ObjectID = "C2f-gp-pzl"; */
-"C2f-gp-pzl.text" = "아이디/비밀번호 기억하기";
+"C2f-gp-pzl.text" = "아이디 기억하기";
 
 /* Class = "UILabel"; text = "기본"; ObjectID = "CtK-BK-eDt"; */
 "CtK-BK-eDt.text" = "기본";

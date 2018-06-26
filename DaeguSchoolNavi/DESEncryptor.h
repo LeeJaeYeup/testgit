@@ -10,4 +10,7 @@
 
 @interface DESEncryptor : NSObject
 
++(NSString *) encrypt:(NSString *)str;
++(NSString *) decrypt:(NSString *)str;
+
 @end

@@ -10,14 +10,13 @@
 
 @implementation StoreParser
 
--(void)connect{
+-(void)connect
+{
 	if(!self.receiveData) self.receiveData = [[NSMutableData alloc] init];
-	NSURL *url = [[NSURL alloc]initWithString:@"https://itunes.apple.com/kr/app/uljingunjeong-seumateuallimi/id1061039345?l=ko&ls=1&mt=8"];
+	NSURL *url = [[NSURL alloc]initWithString:@"https://itunes.apple.com/kr/app/seukulnabi/id893129176?l=ko&ls=1&mt=8"];
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
 	NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-	
 }
-
 
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
 	[self.receiveData setLength:0];
@@ -37,23 +36,18 @@
 	//NSLog(@"%@", rString);
 }
 
--(void)parseWithString:(NSString *)string{
-    //NSString
-    //    	NSRange range = [string rangeOfString:@"Version"];
+-(void)parseWithString:(NSString *)string
+{
     NSRange range = [string rangeOfString:@"\"softwareVersion\""];
-    //    NSLog(@"test999999999 --  %lu %lu", (unsigned long)range.location , (unsigned long)range.length);
-    //    NSLog(@"test291249922 -- %@",string);
+    
     if (range.location != NSNotFound) {
         range.location = range.location+17;
         range.length = 7;
-        NSString *ver = [[string substringWithRange:range] stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
-        
-        NSString *ver1 = [ver stringByReplacingOccurrencesOfString:@"_"
-                                                        withString:@""];
-        ver1 = [ver1 stringByReplacingOccurrencesOfString:@">"
-                                               withString:@""];
-        ver1 = [ver1 stringByReplacingOccurrencesOfString:@"<"
-                                               withString:@""];
+        //        NSString *ver = [[string substringWithRange:range] stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+        NSString *ver = [[string substringFromIndex:range.location+1] stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+        //        NSLog(@"version first = %@", ver);
+        NSArray *verArray = [ver componentsSeparatedByString:@"<"];
+        NSString *ver1 = [verArray objectAtIndex:0];
         self.version = [ver1 stringByReplacingOccurrencesOfString:@" "
                                                        withString:@""];
         NSLog(@"version = %@", self.version);

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341EC7D91C99304F00DADCD8 /* StoreParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 341EC7D81C99304F00DADCD8 /* StoreParser.m */; };
+		3426C7EA1CE096F000FA8F60 /* Sub_Cell_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426C7E51CE096F000FA8F60 /* Sub_Cell_1.m */; };
+		3426C7EB1CE096F000FA8F60 /* Sub_Cell_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3426C7E61CE096F000FA8F60 /* Sub_Cell_1.xib */; };
+		3426C7EC1CE096F000FA8F60 /* Sub_Cell_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426C7E81CE096F000FA8F60 /* Sub_Cell_2.m */; };
+		3426C7ED1CE096F000FA8F60 /* Sub_Cell_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3426C7E91CE096F000FA8F60 /* Sub_Cell_2.xib */; };
+		342889051C12AFF700888451 /* DESEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 342889041C12AFF700888451 /* DESEncryptor.m */; };
 		3428AA761C081FBC002A01A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3428AA751C081FBC002A01A8 /* main.m */; };
 		3428AA791C081FBC002A01A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3428AA781C081FBC002A01A8 /* AppDelegate.m */; };
 		3428AA7C1C081FBC002A01A8 /* DaeguSchoolNavi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3428AA7A1C081FBC002A01A8 /* DaeguSchoolNavi.xcdatamodeld */; };
@@ -15,6 +21,22 @@
 		3428AA841C081FBC002A01A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3428AA831C081FBC002A01A8 /* Images.xcassets */; };
 		3428AA871C081FBD002A01A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3428AA851C081FBC002A01A8 /* LaunchScreen.xib */; };
 		3428AA931C081FBD002A01A8 /* DaeguSchoolNaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3428AA921C081FBD002A01A8 /* DaeguSchoolNaviTests.m */; };
+		3428AA9D1C0868A5002A01A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3428AA9C1C0868A5002A01A8 /* CoreGraphics.framework */; };
+		3428AA9F1C0868AD002A01A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3428AA9E1C0868AD002A01A8 /* Foundation.framework */; };
+		3428AAA11C0868B2002A01A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3428AAA01C0868B2002A01A8 /* UIKit.framework */; };
+		3428AAA31C0868B9002A01A8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3428AAA21C0868B9002A01A8 /* Security.framework */; };
+		3428AAAB1C0868E3002A01A8 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 3428AAA61C0868E3002A01A8 /* NSData+AES.m */; };
+		3428AAAC1C0868E3002A01A8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3428AAA81C0868E3002A01A8 /* NSData+Base64.m */; };
+		3428AAAD1C0868E3002A01A8 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3428AAAA1C0868E3002A01A8 /* NSString+Base64.m */; };
+		346D90E91D0018830041D298 /* Main_iPhone34.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346D90E81D0018830041D298 /* Main_iPhone34.storyboard */; };
+		3494E6161DE674FC00FE2A94 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3494E6111DE674FC00FE2A94 /* TFHpple.m */; };
+		3494E6171DE674FC00FE2A94 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3494E6131DE674FC00FE2A94 /* TFHppleElement.m */; };
+		3494E6181DE674FC00FE2A94 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3494E6151DE674FC00FE2A94 /* XPathQuery.m */; };
+		3494E61A1DE680FE00FE2A94 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3494E6191DE680FE00FE2A94 /* index.html */; };
+		34AC85CE20C6325C00579D77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34AC85CD20C6325C00579D77 /* GoogleService-Info.plist */; };
+		6A12159F4A60F04EFC4988BD /* libPods-dawgu9Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631FC8BE4FAD62301C1F1C90 /* libPods-dawgu9Tests.a */; };
+		B005B1CD8BE4E8A05D262FAA /* libPods-dawgu9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5C9527E2543E98C060B664 /* libPods-dawgu9.a */; };
+		B837F8A81E5158E6007851A8 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B837F8A71E5158E6007851A8 /* KeychainItemWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +49,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B8D4DC7D205F404800576DD6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3428AA701C081FBC002A01A8 /* DaeguSchoolNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaeguSchoolNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145DF1EAE0D9C590F189E322 /* Pods-dawgu9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dawgu9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dawgu9/Pods-dawgu9.debug.xcconfig"; sourceTree = "<group>"; };
+		3036DA468864C337AC6A9372 /* Pods-dawgu9Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dawgu9Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dawgu9Tests/Pods-dawgu9Tests.release.xcconfig"; sourceTree = "<group>"; };
+		341EC7D71C99304F00DADCD8 /* StoreParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreParser.h; sourceTree = "<group>"; };
+		341EC7D81C99304F00DADCD8 /* StoreParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreParser.m; sourceTree = "<group>"; };
+		3426C7E41CE096F000FA8F60 /* Sub_Cell_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sub_Cell_1.h; sourceTree = "<group>"; };
+		3426C7E51CE096F000FA8F60 /* Sub_Cell_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sub_Cell_1.m; sourceTree = "<group>"; };
+		3426C7E61CE096F000FA8F60 /* Sub_Cell_1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sub_Cell_1.xib; sourceTree = "<group>"; };
+		3426C7E71CE096F000FA8F60 /* Sub_Cell_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sub_Cell_2.h; sourceTree = "<group>"; };
+		3426C7E81CE096F000FA8F60 /* Sub_Cell_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sub_Cell_2.m; sourceTree = "<group>"; };
+		3426C7E91CE096F000FA8F60 /* Sub_Cell_2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sub_Cell_2.xib; sourceTree = "<group>"; };
+		342889031C12AFF700888451 /* DESEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncryptor.h; sourceTree = "<group>"; };
+		342889041C12AFF700888451 /* DESEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESEncryptor.m; sourceTree = "<group>"; };
+		3428AA701C081FBC002A01A8 /* 스쿨나비.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "스쿨나비.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3428AA741C081FBC002A01A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3428AA751C081FBC002A01A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3428AA771C081FBC002A01A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +86,37 @@
 		3428AA811C081FBC002A01A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3428AA831C081FBC002A01A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3428AA861C081FBC002A01A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3428AA8C1C081FBD002A01A8 /* DaeguSchoolNaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaeguSchoolNaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3428AA8C1C081FBD002A01A8 /* dawgu9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dawgu9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3428AA911C081FBD002A01A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3428AA921C081FBD002A01A8 /* DaeguSchoolNaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaeguSchoolNaviTests.m; sourceTree = "<group>"; };
+		3428AA9C1C0868A5002A01A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3428AA9E1C0868AD002A01A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3428AAA01C0868B2002A01A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3428AAA21C0868B9002A01A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3428AAA51C0868E3002A01A8 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		3428AAA61C0868E3002A01A8 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		3428AAA71C0868E3002A01A8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3428AAA81C0868E3002A01A8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3428AAA91C0868E3002A01A8 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		3428AAAA1C0868E3002A01A8 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		343AB4BA1DB4BAFC00DE9F22 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		343AB4BB1DB4BAFC00DE9F22 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		346D90E81D0018830041D298 /* Main_iPhone34.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone34.storyboard; sourceTree = "<group>"; };
+		3494E6101DE674FC00FE2A94 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		3494E6111DE674FC00FE2A94 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		3494E6121DE674FC00FE2A94 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		3494E6131DE674FC00FE2A94 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		3494E6141DE674FC00FE2A94 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3494E6151DE674FC00FE2A94 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3494E6191DE680FE00FE2A94 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		34AC85CD20C6325C00579D77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34FEFE2B1DA483010009F4A6 /* schoolNavi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = schoolNavi.entitlements; sourceTree = "<group>"; };
+		631FC8BE4FAD62301C1F1C90 /* libPods-dawgu9Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dawgu9Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989720FEF0B68605C1F6DD2F /* Pods-dawgu9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dawgu9.release.xcconfig"; path = "Pods/Target Support Files/Pods-dawgu9/Pods-dawgu9.release.xcconfig"; sourceTree = "<group>"; };
+		B837F8A61E5158E6007851A8 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		B837F8A71E5158E6007851A8 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		E907C1101556BA784409048A /* Pods-dawgu9Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dawgu9Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dawgu9Tests/Pods-dawgu9Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5C9527E2543E98C060B664 /* libPods-dawgu9.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dawgu9.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +124,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3428AAA31C0868B9002A01A8 /* Security.framework in Frameworks */,
+				3428AAA11C0868B2002A01A8 /* UIKit.framework in Frameworks */,
+				3428AA9F1C0868AD002A01A8 /* Foundation.framework in Frameworks */,
+				3428AA9D1C0868A5002A01A8 /* CoreGraphics.framework in Frameworks */,
+				B005B1CD8BE4E8A05D262FAA /* libPods-dawgu9.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A12159F4A60F04EFC4988BD /* libPods-dawgu9Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,17 +146,24 @@
 		3428AA671C081FBC002A01A8 = {
 			isa = PBXGroup;
 			children = (
+				34FEFE2B1DA483010009F4A6 /* schoolNavi.entitlements */,
+				3428AAA21C0868B9002A01A8 /* Security.framework */,
+				3428AAA01C0868B2002A01A8 /* UIKit.framework */,
+				3428AA9E1C0868AD002A01A8 /* Foundation.framework */,
+				3428AA9C1C0868A5002A01A8 /* CoreGraphics.framework */,
 				3428AA721C081FBC002A01A8 /* DaeguSchoolNavi */,
 				3428AA8F1C081FBD002A01A8 /* DaeguSchoolNaviTests */,
 				3428AA711C081FBC002A01A8 /* Products */,
+				BED0519EC9B12BCBA8701F13 /* Frameworks */,
+				44C7ED492C22F90617BE5440 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		3428AA711C081FBC002A01A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3428AA701C081FBC002A01A8 /* DaeguSchoolNavi.app */,
-				3428AA8C1C081FBD002A01A8 /* DaeguSchoolNaviTests.xctest */,
+				3428AA701C081FBC002A01A8 /* 스쿨나비.app */,
+				3428AA8C1C081FBD002A01A8 /* dawgu9Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,15 +171,29 @@
 		3428AA721C081FBC002A01A8 /* DaeguSchoolNavi */ = {
 			isa = PBXGroup;
 			children = (
+				3426C7E41CE096F000FA8F60 /* Sub_Cell_1.h */,
+				3426C7E51CE096F000FA8F60 /* Sub_Cell_1.m */,
+				3426C7E61CE096F000FA8F60 /* Sub_Cell_1.xib */,
+				3426C7E71CE096F000FA8F60 /* Sub_Cell_2.h */,
+				3426C7E81CE096F000FA8F60 /* Sub_Cell_2.m */,
+				3426C7E91CE096F000FA8F60 /* Sub_Cell_2.xib */,
+				3428AAA41C0868C8002A01A8 /* AES lib */,
+				3494E60F1DE674DE00FE2A94 /* TFHpple */,
+				341EC7D71C99304F00DADCD8 /* StoreParser.h */,
+				341EC7D81C99304F00DADCD8 /* StoreParser.m */,
 				3428AA771C081FBC002A01A8 /* AppDelegate.h */,
 				3428AA781C081FBC002A01A8 /* AppDelegate.m */,
 				3428AA7D1C081FBC002A01A8 /* ViewController.h */,
 				3428AA7E1C081FBC002A01A8 /* ViewController.m */,
+				3494E6191DE680FE00FE2A94 /* index.html */,
 				3428AA801C081FBC002A01A8 /* Main.storyboard */,
+				346D90E81D0018830041D298 /* Main_iPhone34.storyboard */,
 				3428AA831C081FBC002A01A8 /* Images.xcassets */,
 				3428AA851C081FBC002A01A8 /* LaunchScreen.xib */,
 				3428AA7A1C081FBC002A01A8 /* DaeguSchoolNavi.xcdatamodeld */,
 				3428AA731C081FBC002A01A8 /* Supporting Files */,
+				342889031C12AFF700888451 /* DESEncryptor.h */,
+				342889041C12AFF700888451 /* DESEncryptor.m */,
 			);
 			path = DaeguSchoolNavi;
 			sourceTree = "<group>";
@@ -99,7 +201,10 @@
 		3428AA731C081FBC002A01A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B837F8A61E5158E6007851A8 /* KeychainItemWrapper.h */,
+				B837F8A71E5158E6007851A8 /* KeychainItemWrapper.m */,
 				3428AA741C081FBC002A01A8 /* Info.plist */,
+				34AC85CD20C6325C00579D77 /* GoogleService-Info.plist */,
 				3428AA751C081FBC002A01A8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -122,42 +227,95 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3428AAA41C0868C8002A01A8 /* AES lib */ = {
+			isa = PBXGroup;
+			children = (
+				3428AAA51C0868E3002A01A8 /* NSData+AES.h */,
+				3428AAA61C0868E3002A01A8 /* NSData+AES.m */,
+				3428AAA71C0868E3002A01A8 /* NSData+Base64.h */,
+				3428AAA81C0868E3002A01A8 /* NSData+Base64.m */,
+				3428AAA91C0868E3002A01A8 /* NSString+Base64.h */,
+				3428AAAA1C0868E3002A01A8 /* NSString+Base64.m */,
+			);
+			name = "AES lib";
+			sourceTree = "<group>";
+		};
+		3494E60F1DE674DE00FE2A94 /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				3494E6101DE674FC00FE2A94 /* TFHpple.h */,
+				3494E6111DE674FC00FE2A94 /* TFHpple.m */,
+				3494E6121DE674FC00FE2A94 /* TFHppleElement.h */,
+				3494E6131DE674FC00FE2A94 /* TFHppleElement.m */,
+				3494E6141DE674FC00FE2A94 /* XPathQuery.h */,
+				3494E6151DE674FC00FE2A94 /* XPathQuery.m */,
+			);
+			name = TFHpple;
+			sourceTree = "<group>";
+		};
+		44C7ED492C22F90617BE5440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				145DF1EAE0D9C590F189E322 /* Pods-dawgu9.debug.xcconfig */,
+				989720FEF0B68605C1F6DD2F /* Pods-dawgu9.release.xcconfig */,
+				E907C1101556BA784409048A /* Pods-dawgu9Tests.debug.xcconfig */,
+				3036DA468864C337AC6A9372 /* Pods-dawgu9Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BED0519EC9B12BCBA8701F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C9527E2543E98C060B664 /* libPods-dawgu9.a */,
+				631FC8BE4FAD62301C1F1C90 /* libPods-dawgu9Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3428AA6F1C081FBC002A01A8 /* DaeguSchoolNavi */ = {
+		3428AA6F1C081FBC002A01A8 /* dawgu9 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3428AA961C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "DaeguSchoolNavi" */;
+			buildConfigurationList = 3428AA961C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "dawgu9" */;
 			buildPhases = (
+				A2C78CD75CE768B246F69AD8 /* [CP] Check Pods Manifest.lock */,
 				3428AA6C1C081FBC002A01A8 /* Sources */,
 				3428AA6D1C081FBC002A01A8 /* Frameworks */,
 				3428AA6E1C081FBC002A01A8 /* Resources */,
+				B8D4DC7D205F404800576DD6 /* Embed App Extensions */,
+				6D168D563B9E8424BC9B7B0B /* [CP] Embed Pods Frameworks */,
+				B88C848D6F9E772E7D3BC244 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DaeguSchoolNavi;
+			name = dawgu9;
 			productName = DaeguSchoolNavi;
-			productReference = 3428AA701C081FBC002A01A8 /* DaeguSchoolNavi.app */;
+			productReference = 3428AA701C081FBC002A01A8 /* 스쿨나비.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3428AA8B1C081FBD002A01A8 /* DaeguSchoolNaviTests */ = {
+		3428AA8B1C081FBD002A01A8 /* dawgu9Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3428AA991C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "DaeguSchoolNaviTests" */;
+			buildConfigurationList = 3428AA991C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "dawgu9Tests" */;
 			buildPhases = (
+				2B10AF403064B7A870C9E4C2 /* [CP] Check Pods Manifest.lock */,
 				3428AA881C081FBD002A01A8 /* Sources */,
 				3428AA891C081FBD002A01A8 /* Frameworks */,
 				3428AA8A1C081FBD002A01A8 /* Resources */,
+				FB4853ED0FAE4192E981FB6C /* [CP] Embed Pods Frameworks */,
+				756C7974DDED72D2FB5B20A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				3428AA8E1C081FBD002A01A8 /* PBXTargetDependency */,
 			);
-			name = DaeguSchoolNaviTests;
+			name = dawgu9Tests;
 			productName = DaeguSchoolNaviTests;
-			productReference = 3428AA8C1C081FBD002A01A8 /* DaeguSchoolNaviTests.xctest */;
+			productReference = 3428AA8C1C081FBD002A01A8 /* dawgu9Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -166,11 +324,21 @@
 		3428AA681C081FBC002A01A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = SKOINFO;
 				TargetAttributes = {
 					3428AA6F1C081FBC002A01A8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 82533649EW;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					3428AA8B1C081FBD002A01A8 = {
 						CreatedOnToolsVersion = 6.4;
@@ -178,7 +346,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3428AA6B1C081FBC002A01A8 /* Build configuration list for PBXProject "DaeguSchoolNavi" */;
+			buildConfigurationList = 3428AA6B1C081FBC002A01A8 /* Build configuration list for PBXProject "dawgu9" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,8 +359,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3428AA6F1C081FBC002A01A8 /* DaeguSchoolNavi */,
-				3428AA8B1C081FBD002A01A8 /* DaeguSchoolNaviTests */,
+				3428AA6F1C081FBC002A01A8 /* dawgu9 */,
+				3428AA8B1C081FBD002A01A8 /* dawgu9Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,9 +370,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3494E61A1DE680FE00FE2A94 /* index.html in Resources */,
+				34AC85CE20C6325C00579D77 /* GoogleService-Info.plist in Resources */,
+				3426C7EB1CE096F000FA8F60 /* Sub_Cell_1.xib in Resources */,
 				3428AA821C081FBC002A01A8 /* Main.storyboard in Resources */,
+				3426C7ED1CE096F000FA8F60 /* Sub_Cell_2.xib in Resources */,
 				3428AA871C081FBD002A01A8 /* LaunchScreen.xib in Resources */,
 				3428AA841C081FBC002A01A8 /* Images.xcassets in Resources */,
+				346D90E91D0018830041D298 /* Main_iPhone34.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +390,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B10AF403064B7A870C9E4C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dawgu9Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D168D563B9E8424BC9B7B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dawgu9/Pods-dawgu9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756C7974DDED72D2FB5B20A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dawgu9Tests/Pods-dawgu9Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C78CD75CE768B246F69AD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dawgu9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88C848D6F9E772E7D3BC244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dawgu9/Pods-dawgu9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4853ED0FAE4192E981FB6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dawgu9Tests/Pods-dawgu9Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3428AA6C1C081FBC002A01A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3428AAAB1C0868E3002A01A8 /* NSData+AES.m in Sources */,
 				3428AA791C081FBC002A01A8 /* AppDelegate.m in Sources */,
+				3426C7EC1CE096F000FA8F60 /* Sub_Cell_2.m in Sources */,
+				3494E6171DE674FC00FE2A94 /* TFHppleElement.m in Sources */,
 				3428AA761C081FBC002A01A8 /* main.m in Sources */,
+				342889051C12AFF700888451 /* DESEncryptor.m in Sources */,
 				3428AA7F1C081FBC002A01A8 /* ViewController.m in Sources */,
 				3428AA7C1C081FBC002A01A8 /* DaeguSchoolNavi.xcdatamodeld in Sources */,
+				B837F8A81E5158E6007851A8 /* KeychainItemWrapper.m in Sources */,
+				3494E6181DE674FC00FE2A94 /* XPathQuery.m in Sources */,
+				3494E6161DE674FC00FE2A94 /* TFHpple.m in Sources */,
+				3426C7EA1CE096F000FA8F60 /* Sub_Cell_1.m in Sources */,
+				341EC7D91C99304F00DADCD8 /* StoreParser.m in Sources */,
+				3428AAAC1C0868E3002A01A8 /* NSData+Base64.m in Sources */,
+				3428AAAD1C0868E3002A01A8 /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +525,7 @@
 /* Begin PBXTargetDependency section */
 		3428AA8E1C081FBD002A01A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3428AA6F1C081FBC002A01A8 /* DaeguSchoolNavi */;
+			target = 3428AA6F1C081FBC002A01A8 /* dawgu9 */;
 			targetProxy = 3428AA8D1C081FBD002A01A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -252,6 +535,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3428AA811C081FBC002A01A8 /* Base */,
+				343AB4BA1DB4BAFC00DE9F22 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -260,6 +544,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3428AA861C081FBC002A01A8 /* Base */,
+				343AB4BB1DB4BAFC00DE9F22 /* ko */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -271,23 +556,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daegu Education Research and Information Institute (Z6DGYL4UT5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daegu Education Research and Information Institute (Z6DGYL4UT5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -306,6 +602,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f2bf7ebe-33d9-4bfa-bf28-89ec9de82803";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -314,20 +611,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daegu Education Research and Information Institute (Z6DGYL4UT5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daegu Education Research and Information Institute (Z6DGYL4UT5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -342,6 +649,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f2bf7ebe-33d9-4bfa-bf28-89ec9de82803";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -349,28 +657,68 @@
 		};
 		3428AA971C081FBD002A01A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145DF1EAE0D9C590F189E322 /* Pods-dawgu9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = schoolNavi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82533649EW;
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DaeguSchoolNavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoinfo.dawgu9;
+				PRODUCT_NAME = "스쿨나비";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		3428AA981C081FBD002A01A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989720FEF0B68605C1F6DD2F /* Pods-dawgu9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = schoolNavi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82533649EW;
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DaeguSchoolNavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoinfo.dawgu9;
+				PRODUCT_NAME = "스쿨나비";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		3428AA9A1C081FBD002A01A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E907C1101556BA784409048A /* Pods-dawgu9Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -381,22 +729,26 @@
 				);
 				INFOPLIST_FILE = DaeguSchoolNaviTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "skoinfo.co.kr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = dawgu9Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaeguSchoolNavi.app/DaeguSchoolNavi";
 			};
 			name = Debug;
 		};
 		3428AA9B1C081FBD002A01A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3036DA468864C337AC6A9372 /* Pods-dawgu9Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DaeguSchoolNaviTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "skoinfo.co.kr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = dawgu9Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaeguSchoolNavi.app/DaeguSchoolNavi";
 			};
 			name = Release;
@@ -404,7 +756,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3428AA6B1C081FBC002A01A8 /* Build configuration list for PBXProject "DaeguSchoolNavi" */ = {
+		3428AA6B1C081FBC002A01A8 /* Build configuration list for PBXProject "dawgu9" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3428AA941C081FBD002A01A8 /* Debug */,
@@ -413,21 +765,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3428AA961C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "DaeguSchoolNavi" */ = {
+		3428AA961C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "dawgu9" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3428AA971C081FBD002A01A8 /* Debug */,
 				3428AA981C081FBD002A01A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3428AA991C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "DaeguSchoolNaviTests" */ = {
+		3428AA991C081FBD002A01A8 /* Build configuration list for PBXNativeTarget "dawgu9Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3428AA9A1C081FBD002A01A8 /* Debug */,
 				3428AA9B1C081FBD002A01A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
